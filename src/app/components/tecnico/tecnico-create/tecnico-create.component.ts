@@ -3,7 +3,6 @@ import { ToastrService } from 'ngx-toastr';
 import { TecnicoService } from './../../../services/tecnico.service';
 import { FormControl, Validators } from '@angular/forms';
 import { Component, OnInit } from '@angular/core';
-import { NgxMaskModule, IConfig } from 'ngx-mask'
 import { Tecnico } from 'src/app/models/tecnico';
 
 @Component({
